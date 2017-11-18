@@ -31,4 +31,8 @@
   <PropertyGroup Condition=" '$(TargetFramework)' == 'net45'">
     <DefineConstants>$(DefineConstants);NET45;NETFULL</DefineConstants>
   </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Aeron.Driver" Version="1.4.0" />
+  </ItemGroup>
 </Project>
